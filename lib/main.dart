@@ -25,6 +25,7 @@ class MyApp extends StatelessWidget {
           )),
           
           backgroundColor: Colors.blue,
+
           centerTitle: true,
         ),
       body: Center(
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
           
           width: 600,
           height: 600,
-          color: Colors.grey,
+          color: Colors.white,
           child: CustomPaint(
             painter: MyLinePainter(),
             
